@@ -1,0 +1,32 @@
+.calculator{
+    width: 250px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    margin:0 auto;
+}
+
+.result{
+   display: flex;
+   justify-content: end;
+   margin-right: 20px;
+   background-color: gray;
+   padding-right: 5px;
+   width: 225px;
+   height: 40px;
+   margin-bottom: 10px;
+   padding-top: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
